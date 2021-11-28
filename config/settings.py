@@ -26,11 +26,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = '@%s9-i5e$psvm_k)29w8i!tw6ill6-imk@hrgxm+a(93ergm7&'
-SECRET_KEY = env.str("SECRET_KEY")
+SECRET_KEY = 'YTsd5mfIe74ZW99gPhGQZMwmi4cIWMCf1F3PUALgFsw'
+#SECRET_KEY = env.str("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = env.bool("DEBUG")
+DEBUG = True
+#DEBUG = env.bool("DEBUG")
 #DEBUG = env.bool("DEBUG", default = False)
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
